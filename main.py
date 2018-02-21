@@ -50,4 +50,4 @@ def ask():
 	        return jsonify({'status':'OK','answer':final_response})
 
 if __name__ == "__main__":
-    app.run(host='192.168.101.51',port=5000)
+    app.run()
